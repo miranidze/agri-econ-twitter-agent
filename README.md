@@ -19,7 +19,7 @@ agri-econ-twitter-agent/
 ├── templates/
 │   └── daily_digest.html
 ├── data/
-│   └── tweets.db            # created at runtime
+│   └── tweets.db            # runtime
 └── .github/
     └── workflows/
         └── daily-run.yml
