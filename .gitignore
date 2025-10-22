@@ -1,0 +1,30 @@
+# which files or folders should not be tracked or uploaded to GitHub
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# SQLite DB
+data/*.db
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+# which files or folders should not be tracked or uploaded to GitHub
