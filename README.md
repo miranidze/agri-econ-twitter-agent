@@ -1,10 +1,22 @@
-# agri-econ-twitter-agent
 
-# Agri-Econ Twitter Agent
+# 🌾 Agricultural Economics Twitter Agent
 
-Automated agent that finds and summarizes top agricultural economics tweets each day.
+An automated Python agent that searches Twitter (X) daily for the top 5 most engaging tweets about agricultural economics, filters for verified institutional sources, and delivers a daily summary report via Telegram. 
 
-See project steps in repository.
+# 🧭 Overview
+
+This agent automatically:
+
+1. Searches Twitter each day for fresh tweets about agricultural economics, agriculture policy, farm economics, and food supply.
+
+2. Collects only tweets from verified accounts — news agencies, research institutions, companies, or organizations.
+
+3. Ensures no repetition by tracking previously sent tweets.
+
+4. Sends a daily digest containing the top 5 tweets via telegram bot.
+
+
+# 🗂️ Project Structure (initial)
 
 ```
 agri-econ-twitter-agent/
