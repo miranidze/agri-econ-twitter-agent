@@ -18,7 +18,7 @@ This agent automatically:
 
 # 🗂️ Project Structure (initial)
 
-```
+```bash
 agri-econ-twitter-agent/
 ├── README.md
 ├── .env.example
@@ -51,3 +51,17 @@ agri-econ-twitter-agent/
 💾 Local storage of previously sent tweet IDs (JSON or SQLite)
 
 🪶 Lightweight, modular Python design
+
+# 🔑 Environment Variables
+
+Create a .env file in the project root with the following keys:
+
+```ini
+# Twitter API
+TWITTER_BEARER_TOKEN=User_twitter_token
+
+# Telegram 
+TELEGRAM_BOT_TOKEN=User_telegram_bot_token
+TELEGRAM_CHAT_ID=User_chat_id
+
+```
