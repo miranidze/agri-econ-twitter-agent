@@ -37,3 +37,17 @@ agri-econ-twitter-agent/
         └── daily-run.yml
 
 ```
+
+# ⚙️ Features
+
+✅ Automated daily run (via GitHub Actions)
+
+🔍 Smart Twitter search using X API v2
+
+🔐 Environment-based configuration for API keys
+
+🧠 Optional: easily extendable to include AI summaries or policy insights
+
+💾 Local storage of previously sent tweet IDs (JSON or SQLite)
+
+🪶 Lightweight, modular Python design
