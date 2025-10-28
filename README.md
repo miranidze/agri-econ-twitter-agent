@@ -64,4 +64,9 @@ TWITTER_BEARER_TOKEN=User_twitter_token
 TELEGRAM_BOT_TOKEN=User_telegram_bot_token
 TELEGRAM_CHAT_ID=User_chat_id
 
+# Agent preferences
+RESULTS_PER_DAY=5
+SEARCH_QUERY=("agricultural economics" OR "farm economics" OR "...") is:verified lang:en
+                                                        MAX_RESULTS_PER_CALL=100
+
 ```
